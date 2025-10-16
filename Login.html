@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Create Free Account</title>
+        <link rel="stylesheet" href="css/base.css">
+        <link rel="stylesheet" href="css/font.css">
+        <link rel="stylesheet" href="css/img.css">
+        <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="container">
+        <img src="css/image 43.png" alt="logo" class="img_logo">
+
+        <!-- tiêu đề nội dung -->
+        <div class="Title-content">
+            <h1 class="Title">Create Free Account</h1>
+            <p class="content">Clarity gives you the blocks and components you need to create a truly professional website.</p>
+        </div>
+
+        <!-- FORM với validation -->
+        <form id="registrationForm">
+            <!-- Input Group -->
+            <div class="Input-login">
+                <!-- Full Name -->
+                <div class="input-group">
+                    <input type="text" id="fullName" name="fullName" placeholder="First & Last Name" required>
+                    <span class="error-message" id="fullNameError"></span>
+                </div>
+
+                <!-- Email -->
+                <div class="input-group">
+                    <input type="email" id="email" name="email" placeholder="Email Address" required>
+                    <span class="error-message" id="emailError"></span>
+                </div>
+
+                <!-- Password -->
+                <div class="input-group">
+                    <input type="password" id="password" name="password" placeholder="Password" required>
+                    <span class="error-message" id="passwordError"></span>
+                </div>
+
+                <!-- Confirm Password -->
+                <div class="input-group">
+                    <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm Password" required>
+                    <span class="error-message" id="confirmPasswordError"></span>
+                </div>
+            </div>
+
+            <!-- check điều kiện -->
+            <div class="Dieu-kien">
+                <input type="checkbox" id="agreeTerms" class="agree" required>
+                <label for="agreeTerms" class="content_dieukien">
+                    I agree with the Terms & Conditions of Clarity
+                </label>
+                <span class="error-message" id="agreeError"></span>
+            </div>
+
+            <!-- Button -->
+            <button type="submit" id="submitBtn">Sign Up</button>
+        </form>
+
+        <!-- sign in khác -->
+        <div class="btn_ngoai">
+            <!-- google -->
+            <div class="social-btn google">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/1200px-Google_%22G%22_logo.svg.png" class="icon-google" alt="google">
+                <p class="content-google">Sign in with Google</p>
+            </div>
+            
+            <!-- facebook -->
+            <div class="social-btn facebook">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/500px-Facebook_Logo_%282019%29.png" class="icon-google" alt="facebook">
+                <p class="content-google">Sign in with Facebook</p>
+            </div>
+            
+            <h2 class="title-bottom">Don't have an account? <a href="#">Sign up</a></h2>
+        </div>
+    </div>
+
+    <script src="validation.js"></script>
+    <script src="node.js"></script>
+</body>
+</html>

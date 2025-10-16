@@ -1,0 +1,324 @@
+.icon-google {
+    width: 24px;
+    height: 24px;;
+}
+.img_logo{
+    margin: auto;
+    margin-bottom: 12px;;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 104px 24px;
+    text-align: center;
+}
+.Input-login {
+    display: flex;
+    flex-direction: column;
+}
+.Dieu-kien {
+    display: flex;
+}
+.Title {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: bold;
+    margin: 0px;
+    margin-bottom: 8px;
+}
+.content {
+    font-size: 12px;
+    padding: 0px 12px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0px;
+    color: #a3a3a3;
+}
+.Title-content {
+    margin-bottom: 32px;;
+}
+input {
+    background-color: #F8FAFC;
+    padding: 8px;
+    width: 100%;
+    height: 24px;
+    border-radius: 8px;
+    border: 0.524px solid #E4E4E7;
+    margin-bottom: 12px;;
+}
+.fa-check {
+    font-size: 12px;
+    color: black;
+}
+.content_dieukien {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    font-size: 14px;
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 4px;;
+  
+}
+button {
+    background-color: #2563EB ;
+    color: white;
+    border-radius: 8px;
+    width: 100%;
+    height: 38px;
+    border: none;
+    display: flex;
+    padding: 8px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5.236px;
+    align-self: stretch;
+    margin-bottom: 32px;;
+    margin-top: 32px;;
+}
+.google {
+    height: 24px;
+    background-color: #F8FAFC;
+    display: flex;
+    align-items: center;
+    padding: 8px 100px;;
+    border-radius: 8px;
+    border: none;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 12px;;
+}
+.Dieukien {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+}
+.icon-google {
+    margin-right: 8px;;
+}
+.content-google {
+    font-size: 14px;
+    font-weight: 400;
+}
+.title-bottom {
+    font-size: 14px;
+    color: black;
+    font-weight: 100;
+}
+.agree {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
+ 
+}
+/* CSS Login */
+/* Thêm vào file style.css */
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Style cho input groups */
+.input-group {
+    margin-bottom: 8px;
+    position: relative;
+}
+#fullName {
+    height: 42px;
+}
+#email {
+    height: 42px;
+}
+#password {
+    height: 42px;
+}
+#confirmPassword {
+    height: 42px;
+}
+
+/* Error message styling */
+.error-message {
+    color: #dc2626;
+    font-size: 12px;
+    display: block;
+    text-align: left;
+    margin-top: 4px;
+    min-height: 16px;
+}
+
+/* Validation states */
+input:valid {
+    border-color: #16a34a;
+}
+
+input:invalid:not(:focus):not(:placeholder-shown) {
+    border-color: #dc2626;
+}
+
+input:focus {
+    outline: none;
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+/* Checkbox error styling */
+.Dieu-kien {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px 0;
+    position: relative;
+}
+
+#agreeError {
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+}
+
+/* Button states */
+button:disabled {
+    background-color: #9ca3af;
+    cursor: not-allowed;
+}
+
+button:enabled {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:enabled:hover {
+    background-color: #1d4ed8;
+}
+
+/* Social buttons */
+.social-btn {
+    height: 40px;
+    background-color: #F8FAFC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 1px solid #e4e4e7;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.social-btn:hover {
+    background-color: #f1f5f9;
+}
+
+/* Loading state */
+.loading {
+    opacity: 0.7;
+    pointer-events: none;
+}
+
+/* Success state */
+.success {
+    border-color: #16a34a !important;
+    background-color: #f0fdf4 !important;
+}
+
+/* Giữ nguyên các style cũ của bạn và thêm phần trên */
+.icon-google {
+    width: 24px;
+    height: 24px;
+}
+.img_logo{
+    margin: auto;
+    margin-bottom: 12px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 104px 24px;
+    text-align: center;
+}
+.Input-login {
+    display: flex;
+    flex-direction: column;
+}
+.Title {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: bold;
+    margin: 0px;
+    margin-bottom: 8px;
+}
+.content {
+    font-size: 12px;
+    padding: 0px 12px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0px;
+    color: #a3a3a3;
+}
+.Title-content {
+    margin-bottom: 32px;
+}
+
+
+.content_dieukien {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    font-size: 14px;
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 4px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+button {
+    background-color: #2563EB;
+    color: white;
+    border-radius: 8px;
+    width: 100%;
+    height: 48px;
+    border: none;
+    display: flex;
+    padding: 8px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5.236px;
+    align-self: stretch;
+    margin-bottom: 32px;
+    margin-top: 32px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.icon-google {
+    margin-right: 8px;
+}
+.content-google {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+}
+.title-bottom {
+    font-size: 14px;
+    color: black;
+    font-weight: 100;
+}
+.agree {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0px;
+    margin-top: 2px;
+}
