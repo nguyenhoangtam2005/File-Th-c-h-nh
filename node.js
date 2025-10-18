@@ -263,7 +263,7 @@ class FormValidator {
         return new Promise((resolve) => {
             setTimeout(() => {
                 resolve({ success: true });
-            }, 2000);
+            }, 70000);
         });
     }
 }
